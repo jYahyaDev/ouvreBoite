@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleresult.css" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <header>
+
+        <h1>L'Ouvre-Boîtes</h1>
+
+    </header>
+    <main>
+
+    <form action="resultat.php" method="post">
+      <p>
+        <label for="Nombre de dés"> Choisir le nombre de dés à lancer </label>
+        <select name="nbrDes" class="nbrDes">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </p>
+      <label for="face"> Choisir le nombre de face </label>
+      <select name="nbrFaces" class="nbrFace">
+        <option value="4">4</option>
+        <option value="6">6</option>
+        <option value="8">8</option>
+        <option value="10">10</option>
+      </select>
+      <p>
+        <input type="submit" value="Lancer les dés">
+      </p>
+  
+    </form>
+
+    </main>
+   <footer></footer>
+  <!--   <script src="script.js"></script> -->
+  </body>
+</html>
